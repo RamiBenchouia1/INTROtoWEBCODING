@@ -1,106 +1,77 @@
+:root{
+    /*
+    add styles variables here 
+
+    */
+}
+
+/*
+look up how to add light-dark theme toggle button to your site (https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/)
+*/
+
+
 body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-#header{
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/The\ Death\ of\ Socrates\ small.jpg);
-    background-position: center;
-    /* background-size: cover; */
-    background-attachment: fixed;
-}
-
-.user-box{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+    /*background: rgba(0, 128, 0, 0.721);*/
+    background: black;
 }
 
 
-.user-box img{
-    border-radius: 50%;
-    width: 250px;
-    border: 2px solid #6caed5
-}
-
-.user-box h1{
-    color: #fff;
+.name-title{
+    text-align: center;
+    font-family: Didot;
+    color: rgb(147, 0, 0);
     font-weight: bold;
-    margin: 10px;
 }
-
-.user-box p{
-    color: #fff;
-}
-
-
-.scroll-btn{
-    bottom: 30px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 2px solid #fff;
-    padding: 10px 10px 20px;
-    border-radius: 30px;
-}
-
-
-.scroll-bar span{
-    border: 2px solid #fff;
-    font-size: 10px;
-    border-radius: 30px;
-}
-
-
-.scroll-bar{
-    animation: mover 1s infinite alternate;
-}
-
-@keyframes mover{
-    0%{transform: translateY(0);}
-    100%{transform: translateY(10px);}
-}
-
-
-
-
-/* ABOUT SECTION */
-
-.about{
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-
-.nav-bar{
-    top: 0;
-    position: sticky;
-    z-index: 2;
-}
-
-
-.navbar{
-    background-color: rgb(0, 0, 0);
-}
-
-.nav-bar .fa-bars{
-    font-size: 35px;
-    color: #fff;
-}
-
-.navbar-toggler{
-    outline: none !important;
-}
-
-.navbar-nav{
-    float: right;
-    text-align: right;
-}
-
 
 .nav-link{
-    color: #fff !important;
+    font-family: Didot;
+    color: rgb(147, 0, 0);
+    font-weight: bold;
 }
+
+
+/* .mynav{
+    background-image: linear-gradient(to right, rgb(216, 172, 26), red);
+} */
+
+.divider-vertical-second-menu{
+    height: 40px;
+    width: 1px;
+    margin: 0 5px;
+    overflow: hidden;
+    background-color: #DDD;
+    border-right: 2px solid #FFF;
+ }
+
+
+
+ .random-text-generator{
+     text-align: center;
+ }
+
+ #quoteDisplay{
+     /*background-image: linear-gradient(to right, rgb(77, 63, 63), red);*/
+     font-family: Didot;
+     color: white;
+     font-weight: bold;
+     display: inline-block;
+     padding-bottom: 40px;
+     padding-right: 20px;
+ }
+
+ .quote-button{
+     padding: 3px, 3px, 3px, 3px;
+     color: red;
+     background-color: black;
+ }
+
+ .about-image{
+     padding-right: 20px;
+     float: left;
+ }
+
+ .about-text{
+     color: white;
+     font-family: Didot;
+     float: right;
+ }
