@@ -25,11 +25,18 @@ body{
 }
 
 .nav-link{
-    font-family: Didot;
+    font-family: Calibri;
     color: rgb(147, 0, 0);
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
+
+.nav-item{
+    /* increase spacing between navbar items */
+    padding: 10px 40px;
+}
 
 /* .mynav{
     background-image: linear-gradient(to right, rgb(216, 172, 26), red);
@@ -52,7 +59,7 @@ body{
 
  #quoteDisplay{
      /*background-image: linear-gradient(to right, rgb(77, 63, 63), red);*/
-    font-family: Zapfino;
+    font-family: 'Merienda One';
     color: white;
     font-weight: bold;
     display: inline-block;
