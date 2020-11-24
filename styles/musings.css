@@ -1,0 +1,73 @@
+
+.musings-body{
+    font-family: Didot;
+    color: white;
+}
+
+.topic-list{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.topic-list:hover{
+    font-weight: 900;
+}
+
+h2{
+    font-weight: 800;
+}
+
+.main-content-container{
+    display: grid;
+    grid-template-areas: 'left-content right-content';
+    width: 60%;
+    margin: auto;
+    grid-gap: 50px;
+    text-align: left;
+}
+
+
+.featured-article, .another-article{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.featured-article-abstract{
+    margin-top: 1.5%;
+}
+
+.article-titles{
+    margin-bottom: 10px;
+}
+
+.article-thumbnail-image{
+    width: 700px;
+}
+
+.article-intro-text{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.btn{
+    font-family: Didot;
+}
+
+.read-more-btn{
+    background-color: white;
+    border: none;
+    margin-bottom: 10%;
+    float: inline-start;
+}
+
+
+
+.search-btn{
+    background-color: white;
+    border: none;
+    margin-bottom: 10%;
+}
+
