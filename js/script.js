@@ -55,7 +55,8 @@ var quotes = [
     'Cultural artistic expression reflects philosophical evolution, interest in growth, perspective, observation, interpretation.',
     'Ain\'t no money like trap money.',
     'I fell in love with a white girl, I know that she dont like me back.',
-    'He who has learned to see beauty in due order and succession, when he comes toward the end will suddenly perceive a nature of wondrous beauty... beauty absolute, separate, simple, and everlasting, which without diminution and without increase, or any change, is imparted to the ever-growing and perishing beauties of all other things. He who from these, ascending under the influence of true love, begins to perceive that beauty, is not far from the end.'
+    'He who has learned to see beauty in due order and succession, when he comes toward the end will suddenly perceive a nature of wondrous beauty... beauty absolute, separate, simple, and everlasting, which without diminution and without increase, or any change, is imparted to the ever-growing and perishing beauties of all other things. He who from these, ascending under the influence of true love, begins to perceive that beauty, is not far from the end.',
+    'I think that God has particular languages... one of them is music, and one of them is mathematics.'
 ]
 
 var people = [
@@ -75,7 +76,8 @@ var people = [
     ' –– Mordin',
     ' –– Trapmoneybenny',
     ' –– KEY!',
-    ' –– Diotima speaking to Socrates in Plato`s Symposium'
+    ' –– Diotima speaking to Socrates in Plato`s Symposium',
+    ' –– D. F. Wallace'
 ]
 
 
